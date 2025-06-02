@@ -1,0 +1,48 @@
+name: "🌐 Website Story"
+description: "A feature request or improvement for the website."
+title: "🌐 [Story]: "
+labels: ["story", "website"]
+assignees: []
+
+body:
+  - type: checkboxes
+    id: affected_pages
+    attributes:
+      label: "🧭 Affected page(s)"
+      description: "Which part(s) of the site are affected?"
+      options:
+        - label: "www"
+        - label: "VAC"
+        - label: "Franz"
+        - label: "Courses"
+        - label: "Contacts"
+        - label: "Team"
+        - label: "Somewhere else"
+
+  - type: textarea
+    id: task_description
+    attributes:
+      label: "📝 Describe the task"
+      description: "What is the feature or improvement about?"
+      placeholder: "Add a sticky navigation bar to the course detail pages."
+
+  - type: textarea
+    id: concept_art
+    attributes:
+      label: "🎨 Concept Art"
+      description: "Visual or functional ideas – sketches, layout, animation behavior etc."
+      placeholder: "Fade-in animation with CTA button pinned to top-right corner."
+
+  - type: textarea
+    id: what_we_know
+    attributes:
+      label: "📚 What we know"
+      description: "Which parts of this are already implemented or partially done?"
+      placeholder: "The courses page already uses Vue components, but no route-based tracking yet."
+
+  - type: textarea
+    id: pitfalls
+    attributes:
+      label: "⚠️ Pitfalls"
+      description: "Anything to pay special attention to?"
+      placeholder: "Needs to remain accessible and mobile-friendly."

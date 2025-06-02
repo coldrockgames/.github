@@ -1,0 +1,29 @@
+name: "🏢 Company Task"
+description: "A general task or responsibility on company level."
+title: "🏢 [Task]: "
+labels: ["task", "company"]
+assignees: []
+
+body:
+  - type: textarea
+    id: task_description
+    attributes:
+      label: "📝 Describe the task"
+      description: "What needs to be done?"
+      placeholder: "Prepare pitch slides for the investor meeting."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "📣 Reason / Event"
+      description: "Why is this needed? What triggered this task?"
+      placeholder: "Triggered by the feedback from the marketing workshop."
+
+  - type: input
+    id: due_date
+    attributes:
+      label: "📅 Due Date"
+      description: "When should this be completed (optional)?"
+      placeholder: "2025-07-15"

@@ -1,0 +1,73 @@
+name: "🐞 Bug Report"
+description: "Create a detailed bug report to help us improve."
+title: "🐞 [Bug]: "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: checkboxes
+    id: affected_system
+    attributes:
+      label: "🧩 Affected System"
+      description: "Which part of the system is affected?"
+      options:
+        - label: "ennead"
+        - label: "raptor-core"
+        - label: "raptor-libs"
+        - label: "website"
+        - label: "somewhere else"
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 Describe the bug"
+      description: "What went wrong? Please provide a clear and concise description."
+      placeholder: "Something unexpected happened when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🧪 To Reproduce"
+      description: "List the steps to reproduce the bug."
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "✅ Expected behavior"
+      description: "What did you expect to happen instead?"
+      placeholder: "It should have..."
+  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots"
+      description: "If applicable, add screenshots to help explain your problem."
+      placeholder: "Drag & drop screenshots here or paste them in."
+  
+  - type: checkboxes
+    id: os
+    attributes:
+      label: "🖥️ Operating System(s)"
+      description: "Where did the bug occur?"
+      options:
+        - label: "Windows 10"
+        - label: "Windows 11"
+        - label: "Android"
+        - label: "iOS"
+        - label: "Browser/HTML"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "💬 Additional context"
+      description: "Anything else you'd like to add?"
+      placeholder: "Stack trace, log file, build version, chocolate preference..."
