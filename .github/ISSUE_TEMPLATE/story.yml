@@ -1,7 +1,7 @@
 name: "📘 Story"
-description: "A development story that helps us know what needs to be built."
+description: "A development story"
 title: "📘 [Story]: "
-labels: ["story"]
+labels: []
 assignees: []
 
 body:
@@ -12,22 +12,17 @@ body:
       description: "Which system(s) are relevant for this story?"
       options:
         - label: "ennead"
-        - label: "raptor-core"
-        - label: "raptor-libs"
+        - label: "raptor"
+        - label: "franz"
         - label: "website"
-        - label: "somewhere else (describe below)"
-
-  - type: textarea
-    id: applies_elsewhere
-    attributes:
-      label: "📍 Applies to (other)"
-      description: "Only if you selected 'somewhere else'."
-      placeholder: "Used in the planned Analytics Dashboard and shared DevOps backend."
+        - label: "api"
+        - label: "course templates"
+        - label: "something else"
 
   - type: textarea
     id: story_content
     attributes:
-      label: "📝 The Story Is About"
+      label: "📝 The Story"
       description: "Write a little love letter to your favorite developer 💌"
       placeholder: "As a player, I want to be able to..."
 
@@ -38,24 +33,10 @@ body:
       description: "Sketch or describe how it should feel/look/work."
       placeholder: "A UI panel slides in from the left, with fluid animation and drag-and-drop zones..."
 
-  - type: textarea
-    id: current_state
-    attributes:
-      label: "📚 What we know"
-      description: "What's already there in the target system?"
-      placeholder: "The sidebar component already exists but lacks interaction logic."
-
-  - type: textarea
-    id: pitfalls
-    attributes:
-      label: "⚠️ Pitfalls"
-      description: "What should we be careful about?"
-      placeholder: "Needs to work on touchscreens. Don't break tab navigation."
-
   - type: dropdown
     id: estimate
     attributes:
-      label: "🧮 Estimated Size"
+      label: "Estimated Size"
       description: "What's your best guess on the effort?"
       options:
         - "1"
@@ -65,10 +46,3 @@ body:
         - "8"
         - "13"
         - "omg! This is epic!"
-
-  - type: textarea
-    id: additional_context
-    attributes:
-      label: "💬 Additional context"
-      description: "Any other helpful information?"
-      placeholder: "Related to Issue #123. Comes from UX review notes."

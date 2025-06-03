@@ -1,45 +1,33 @@
-name: "✒ Lore Submission"
-description: "Contribute a new story piece to the game's lore."
+name: "✒ Lore"
+description: "Tell Me a Poem..."
 title: "✒ [Lore]: "
-labels: ["lore"]
+labels: []
 assignees: []
 
 body:
-  - type: checkboxes
+  - type: dropdown
     id: poem_type
     attributes:
-      label: "📖 Tell Me a Poem..."
-      description: "What kind of lore are you submitting?"
+      label: "What kind of story is this?"
       options:
-        - label: "Background Story"
-        - label: "Characters in the game"
-        - label: "Something else (please describe below)"
-
-  - type: textarea
-    id: other_topic
-    attributes:
-      label: "🗒️ Tell us about something else"
-      description: "Only if you selected 'something else' above."
-      placeholder: "This is about a forgotten race that lives under the dunes..."
+        - Game Background Story
+        - Characters in the game
+        - World/Area/Dungeon Story
+        - Event Story
+    validations:
+      required: true
 
   - type: textarea
     id: story_content
     attributes:
       label: "📜 The Story Is About"
-      description: "What's the main content of this lore piece?"
+      description: "Content"
       placeholder: "Once upon a realm of shifting stars..."
-
-  - type: textarea
-    id: must_have
-    attributes:
-      label: "⚠️ Don't Forget"
-      description: "What elements must be included in this lore?"
-      placeholder: "The goddess of fate must be mentioned at least once."
 
   - type: textarea
     id: connects_to
     attributes:
-      label: "🔗 Connects To"
+      label: "🔗 Connects To / Related other lore"
       description: "What existing lore does this tie into?"
       placeholder: "It connects to the timeline of the Crimson Wars and the fall of House Iros."
 
@@ -49,10 +37,3 @@ body:
       label: "🎨 Concept Art"
       description: "Rough ideas for how this could be visualized – sketches, shapes, moods, etc."
       placeholder: "Tall obsidian towers wrapped in mist, eyes blinking from the fog..."
-
-  - type: textarea
-    id: additional_context
-    attributes:
-      label: "💬 Additional context"
-      description: "Anything else we should know?"
-      placeholder: "Inspired by Norse myths + Dune + that one fever dream last week."
