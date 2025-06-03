@@ -10,7 +10,6 @@ body:
     attributes:
       label: "📝 Describe the task"
       description: "What needs to be done?"
-      placeholder: "Prepare pitch slides for the investor meeting."
     validations:
       required: true
 
@@ -19,7 +18,6 @@ body:
     attributes:
       label: "📣 Reason / Event"
       description: "Why is this needed? What triggered this task?"
-      placeholder: "Triggered by the feedback from the marketing workshop."
 
   - type: input
     id: due_date

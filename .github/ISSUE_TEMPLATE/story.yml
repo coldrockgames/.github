@@ -31,7 +31,6 @@ body:
     attributes:
       label: "🎨 Concept Art"
       description: "Sketch or describe how it should feel/look/work."
-      placeholder: "A UI panel slides in from the left, with fluid animation and drag-and-drop zones..."
 
   - type: dropdown
     id: estimate

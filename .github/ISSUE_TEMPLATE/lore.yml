@@ -29,11 +29,10 @@ body:
     attributes:
       label: "🔗 Connects To / Related other lore"
       description: "What existing lore does this tie into?"
-      placeholder: "It connects to the timeline of the Crimson Wars and the fall of House Iros."
 
   - type: textarea
     id: concept_art
     attributes:
       label: "🎨 Concept Art"
       description: "Rough ideas for how this could be visualized – sketches, shapes, moods, etc."
-      placeholder: "Tall obsidian towers wrapped in mist, eyes blinking from the fog..."
+      placeholder: "Images or text - share your vision!"
