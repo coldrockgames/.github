@@ -1,7 +1,7 @@
 name: "🏢 Company Task"
 description: "A general task or responsibility on company level."
 title: "🏢 [Task]: "
-labels: ["task", "company"]
+labels: []
 assignees: []
 
 body:
