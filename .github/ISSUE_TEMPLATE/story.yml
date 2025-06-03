@@ -5,20 +5,6 @@ labels: []
 assignees: []
 
 body:
-  - type: checkboxes
-    id: applies_to
-    attributes:
-      label: "🧭 This story applies to"
-      description: "Which system(s) are relevant for this story?"
-      options:
-        - label: "ennead"
-        - label: "raptor"
-        - label: "franz"
-        - label: "website"
-        - label: "api"
-        - label: "course templates"
-        - label: "something else"
-
   - type: textarea
     id: story_content
     attributes:

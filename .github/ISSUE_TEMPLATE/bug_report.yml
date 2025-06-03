@@ -5,19 +5,12 @@ labels: []
 assignees: []
 
 body:
-  - type: checkboxes
-    id: affected_system
+  - type: textarea
+    id: description
     attributes:
-      label: "🧩 Affected Product"
-      description: "Which product is affected?"
-      options:
-        - label: "ennead"
-        - label: "raptor"
-        - label: "franz"
-        - label: "website"
-        - label: "api"
-        - label: "course templates"
-        - label: "something else"
+      label: "📝 Describe the bug"
+      description: "What went wrong? Please provide a clear and concise description and what you expected."
+      placeholder: "Something unexpected happened when..."
     validations:
       required: true
 
@@ -28,15 +21,6 @@ body:
       description: "In which version did the bug occur?"
       placeholder: "e.g. 1.5.0-beta2"
     
-  - type: textarea
-    id: description
-    attributes:
-      label: "📝 Describe the bug"
-      description: "What went wrong? Please provide a clear and concise description and what you expected."
-      placeholder: "Something unexpected happened when..."
-    validations:
-      required: true
-
   - type: dropdown
     id: occurrence_frequency
     attributes:
