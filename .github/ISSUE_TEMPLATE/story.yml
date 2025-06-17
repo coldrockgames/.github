@@ -33,10 +33,7 @@ body:
     attributes:
       label: "✔ Todo-List"
       description: "Create a checklist of the steps for this story (Dev only)"
-    value: 
-      - \\[ \\] Task1
-      - \\[ \\] Task2
-      - \\[ \\] Task3
+    value: - [ ] Task1
 
   - type: textarea
     id: concept_art
