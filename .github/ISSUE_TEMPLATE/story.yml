@@ -5,24 +5,11 @@ labels: []
 assignees: []
 
 body:
-  - type: textarea
-    id: story_content
-    attributes:
-      label: "📝 The Story"
-      description: "Write a little love letter to your favorite developer 💌"
-      placeholder: "As a player, I want to be able to..."
-
-  - type: textarea
-    id: concept_art
-    attributes:
-      label: "🎨 Concept Art"
-      description: "Sketch or describe how it should feel/look/work."
-
   - type: dropdown
     id: estimate
     attributes:
       label: "Estimated Size"
-      description: "What's your best guess on the effort?"
+      description: "What's your best guess on the effort? (Dev only)"
       options:
         - "1"
         - "2"
@@ -31,3 +18,29 @@ body:
         - "8"
         - "13"
         - "omg! This is epic!"
+        
+  - type: textarea
+    id: story_content
+    attributes:
+      label: "📝 The Story"
+      description: "Write a little love letter to your favorite developer 💌"
+      placeholder: "As a player, I want to be able to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: story_task_list
+    attributes:
+      label: "✔ Todo-List"
+      description: "Create a checklist of the steps for this story (Dev only)"
+    value: |
+      * [ ] Task 1
+      * [ ] Task 2
+      * [ ] Task 3
+
+  - type: textarea
+    id: concept_art
+    attributes:
+      label: "🎨 Concept Art"
+      description: "Sketch or describe how it should feel/look/work."
+

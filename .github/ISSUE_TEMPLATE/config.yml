@@ -1,6 +1,13 @@
 blank_issues_enabled: false
-contact_links: []
 
+contact_links:
+  - name: 💡 Feature Request (for Customers / Users)
+    url: https://github.com/coldrockgames/.github/issues/new?template=feature.yml
+    about: Are missing something in raptor? Let us know!
+  - name: 🛠️ Create Internal Ticket (for coldrock members)
+    url: https://github.com/coldrockgames/.github/issues/new/choose
+    about: Part of our team? Choose this!
+    
 issue_templates:
   - name: "🐞 Bug Report"
     description: "Something is broken or behaves unexpectedly."
