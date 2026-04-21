@@ -349,3 +349,25 @@ jsfilelist.json
 jsfilelist.jx
 imgui.ini
 hotreload.json
+
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# DBeaver / Eclipse ignores
+*.lock
+*.log
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi.backup
