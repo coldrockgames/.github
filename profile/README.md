@@ -1,4 +1,4 @@
-![coldrock-banner-itch-960x110](https://github.com/user-attachments/assets/a8a2e959-6228-4515-9d35-cddfce40503b)
+![coldrock-banner](https://github.com/Grisgram/Grisgram/blob/main/images/coldrock_banner.png)
 
 |||
 |---|---|
