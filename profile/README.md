@@ -1,4 +1,4 @@
-![coldrock-banner](https://github.com/Grisgram/Grisgram/blob/main/images/coldrock_banner.png)
+![coldrock-banner](https://github.com/coldrockgames/.github/blob/main/public_images/coldrock-banner.png)
 
 |||
 |---|---|
