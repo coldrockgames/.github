@@ -6,18 +6,6 @@ issue_templates:
     description: "Something is broken or behaves unexpectedly."
     file: bug_report.yml
 
-  - name: "📘 Story"
-    description: "Describe a developer-facing user story or task."
-    file: story.yml
-
-  - name: "✒ Lore"
-    description: "Write a beautiful new piece of game lore."
-    file: lore.yml
-
-  - name: "🏢 Company Task"
-    description: "General company-level task, goal or reminder."
-    file: company_task.yml
-    
   - name: "🛠 Feature Request"
     description: "A customer feature request"
     file: feature_request.yml
