@@ -1,0 +1,13 @@
+name: "🛠 Feature Request"
+description: "A customer feature request"
+title: "🛠 [Feature]: "
+labels: []
+assignees: []
+
+body:
+  - type: textarea
+    id: feedback_content
+    attributes:
+      label: "✒ Feedback"
+      description: "What is it, you like to tell us?"
+      placeholder: "I miss the ability to..."

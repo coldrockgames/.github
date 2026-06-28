@@ -10,3 +10,7 @@ issue_templates:
     description: "A customer feature request"
     file: feature_request.yml
     
+  - name: "🛠 General Feedback"
+    description: "Tell us what you think!"
+    file: general_feedback.yml
+    
