@@ -4,9 +4,6 @@
 |---|---|
 |![godoticon](https://github.com/coldrockgames/.github/blob/3f7b83402455fcfefde3eedff0cfd2d46106ee12/public_images/godot-icon-64.png)|*****shhhhh*** working on secret steam stuff!**<br/>Announcements coming soon™|
 
-### Project Task Items visible to collaborators only
+## Find us on the web
 
-|Main Development Stream|Mobile Development Stream|
-|---|---|
-|🔸[coldrock-main](https://github.com/orgs/coldrockgames/projects/5/views/1)<br/>|🔸[coldrock-mobile](https://github.com/orgs/coldrockgames/projects/8/views/4)|
-
+[Our latest release on Google Play](https://play.google.com/store/apps/details?id=games.coldrock.shoguns_trial)
